@@ -1,0 +1,67 @@
+{
+  "scenarios": [
+    {
+      "energy_budget": 15,
+      "reserve": 5,
+      "full_science_success": false,
+      "returned_to_base": true,
+      "reserve_preserved": true,
+      "energy_used": 10,
+      "samples_collected": 1,
+      "reason": "returned safely before energy reserve was violated"
+    },
+    {
+      "energy_budget": 20,
+      "reserve": 5,
+      "full_science_success": false,
+      "returned_to_base": true,
+      "reserve_preserved": true,
+      "energy_used": 10,
+      "samples_collected": 1,
+      "reason": "returned safely before energy reserve was violated"
+    },
+    {
+      "energy_budget": 25,
+      "reserve": 5,
+      "full_science_success": true,
+      "returned_to_base": true,
+      "reserve_preserved": true,
+      "energy_used": 16,
+      "samples_collected": 2,
+      "reason": "all science targets collected and rover returned to base"
+    },
+    {
+      "energy_budget": 30,
+      "reserve": 5,
+      "full_science_success": true,
+      "returned_to_base": true,
+      "reserve_preserved": true,
+      "energy_used": 16,
+      "samples_collected": 2,
+      "reason": "all science targets collected and rover returned to base"
+    },
+    {
+      "energy_budget": 40,
+      "reserve": 5,
+      "full_science_success": true,
+      "returned_to_base": true,
+      "reserve_preserved": true,
+      "energy_used": 16,
+      "samples_collected": 2,
+      "reason": "all science targets collected and rover returned to base"
+    },
+    {
+      "energy_budget": 50,
+      "reserve": 5,
+      "full_science_success": true,
+      "returned_to_base": true,
+      "reserve_preserved": true,
+      "energy_used": 16,
+      "samples_collected": 2,
+      "reason": "all science targets collected and rover returned to base"
+    }
+  ],
+  "safe_return_rate_pct": 100.0,
+  "full_science_completion_rate_pct": 66.67,
+  "reserve_compliance_rate_pct": 100.0
+}
