@@ -1,0 +1,76 @@
+{
+  "total_rows_profiled": 128446,
+  "parsed_rows_pct": 100.0,
+  "image_catalog": {
+    "rows": 856,
+    "key_metadata_complete_rows": 856,
+    "key_metadata_coverage_pct": 100.0,
+    "cameras": {
+      "CHEMCAM": 4,
+      "FHAZ": 2,
+      "MAST": 838,
+      "NAVCAM": 10,
+      "RHAZ": 2
+    },
+    "unique_sols": 1,
+    "sol_range": [
+      1000,
+      1000
+    ],
+    "earth_date_range": [
+      "2015-05-30",
+      "2015-05-30"
+    ]
+  },
+  "navigation_telemetry": {
+    "rows": 119321,
+    "core_fields_complete_rows": 119321,
+    "core_fields_coverage_pct": 100.0,
+    "unique_positions": 1,
+    "stationary_observations_pct": 100.0,
+    "pitch_degrees": {
+      "values": 119321,
+      "coverage_pct": 100.0,
+      "minimum": 0.06,
+      "maximum": 0.16,
+      "mean": 0.0991
+    },
+    "roll_degrees": {
+      "values": 119321,
+      "coverage_pct": 100.0,
+      "minimum": 0.15,
+      "maximum": 0.2,
+      "mean": 0.1653
+    }
+  },
+  "weather_telemetry": {
+    "rows": 8269,
+    "local_temperature_kelvin": {
+      "values": 8269,
+      "coverage_pct": 100.0,
+      "minimum": 195.08,
+      "maximum": 261.7,
+      "mean": 210.6877
+    },
+    "relative_humidity": {
+      "values": 0,
+      "coverage_pct": 0.0,
+      "minimum": null,
+      "maximum": null,
+      "mean": null
+    },
+    "volume_mixing_ratio": {
+      "values": 0,
+      "coverage_pct": 0.0,
+      "minimum": null,
+      "maximum": null,
+      "mean": null
+    }
+  },
+  "interpretation": [
+    "Image records are suitable for camera-distribution and metadata analysis.",
+    "The MEDA extract is a stationary observation window, not a driving trajectory.",
+    "Local temperature is available, while humidity and mixing ratio require another source.",
+    "Coverage percentages describe data completeness, not flight or model accuracy."
+  ]
+}
